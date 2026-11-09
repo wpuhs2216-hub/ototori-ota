@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="robots" content="noindex, nofollow">
+  <title>おととり（iPhone 版）</title>
+  <style>
+    :root { --green: #23694e; --ink: #202521; --muted: #6f7871; }
+    body {
+      margin: 0; min-height: 100dvh; box-sizing: border-box;
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      gap: 16px; text-align: center; padding: 32px 20px;
+      font-family: -apple-system, "Hiragino Sans", sans-serif;
+      background: radial-gradient(ellipse at 50% 0%, #e7eee6 0, #f5f3ef 36rem); color: var(--ink);
+    }
+    img.icon { width: 112px; height: 112px; border-radius: 25px; box-shadow: 0 10px 26px #23694e33; }
+    h1 { font-size: 26px; margin: 4px 0 0; letter-spacing: -.02em; }
+    .sub { color: var(--muted); font-size: 14px; margin: 0; line-height: 1.7; }
+    a.install {
+      display: inline-block; margin-top: 6px; padding: 15px 44px; border-radius: 999px;
+      background: var(--green); color: #fff; font-weight: 700; font-size: 17px; text-decoration: none;
+      box-shadow: 0 6px 16px #23694e40;
+    }
+    ol { text-align: left; max-width: 330px; padding-left: 1.3em; margin: 6px 0 0; color: #3b443e; font-size: 14px; line-height: 1.8; }
+    .note { color: var(--muted); font-size: 12px; max-width: 330px; line-height: 1.7; margin: 0; }
+    .ver { color: #9aa19b; font-size: 11px; }
+  </style>
+</head>
+<body>
+  <img class="icon" src="icon.png" alt="おととり">
+  <div>
+    <h1>おととり</h1>
+    <p class="sub">動画のURLから、音声や動画を保存。<br>USB メモリへの移動もかんたん。</p>
+  </div>
+  <a class="install" href="itms-services://?action=download-manifest&amp;url=https://wpuhs2216-hub.github.io/ototori-ota/manifest.plist">インストール</a>
+  <ol>
+    <li>iPhone の <b>Safari</b> でこのページを開きます。</li>
+    <li>「インストール」→「インストール」を押します。</li>
+    <li>ホーム画面に「おととり」が出たら完了です。</li>
+  </ol>
+  <p class="note">登録された iPhone だけに入れられる配布です。登録されていない iPhone では、途中で止まって入りません。<br>自分が作った動画、または保存する許可を得た動画にご利用ください。</p>
+  <p class="ver">版 1.0.0（2）</p>
+</body>
+</html>
